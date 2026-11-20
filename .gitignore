@@ -1,0 +1,27 @@
+# Local agent and editor state. Never publish.
+.claude/
+.codex/
+.cursor/
+.aider*
+.continue/
+.windsurf/
+.idea/
+.vscode/
+
+# Python
+__pycache__/
+*.pyc
+
+# Android build outputs and local settings. Never publish.
+*.iml
+.gradle/
+/local.properties
+/.idea/
+.DS_Store
+/build/
+/app/build/
+/captures/
+.externalNativeBuild/
+.cxx/
+*.keystore
+*.jks
