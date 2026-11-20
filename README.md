@@ -1,2 +1,21 @@
-# android
-Android app for the Mosgird protocol (see mosgird/protocols for the specification)
+# Mosgird android
+
+Android application for the Mosgird protocol. The specification is in mosgird/protocols.
+
+**Status:** not started. No code yet.
+
+**License:** Mulan Permissive Software License, Version 2 (Mulan PSL v2). See [LICENSE.md](LICENSE.md).
+
+## Specification
+
+The protocol is specified in [mosgird/protocols](https://github.com/mosgird/protocols). This repository implements that specification. When the two disagree, the specification wins, and the difference is a bug to fix here or a change to propose there.
+
+
+## Where protocol details come from
+
+Users and developers: the protocol is specified in [mosgird/protocols](https://github.com/mosgird/protocols). Implementation details here follow that specification. Read it before relying on any behavior of this software.
+
+
+## Contributing
+
+See [CONTRIBUTING.md](CONTRIBUTING.md). Rules for AI tools and agents are in the protocol repository.
