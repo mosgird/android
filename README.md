@@ -17,7 +17,7 @@ The protocol has no server and uses no domain names ([decision 0005](https://git
 On Android this has two consequences:
 
 - **No push service.** The app does not use Firebase Cloud Messaging or any other push service to wake up. A push service is a server in the delivery path, which decision 0005 excludes, and it would learn when messages arrive.
-- **Reachability depends on background limits.** Android restricts background networking (Doze and app standby), so the app is often unreachable while it is not in use. How a device stays reachable is open in the specification (open questions 12 and 14). The app adds no workaround until the specification decides.
+- **Reachability depends on background limits.** Android restricts background networking (Doze and app standby), so the app is often unreachable while it is not in use. Push services are excluded ([decision 0008](https://github.com/mosgird/protocols/blob/main/spec/decisions/0008-no-push-services.md)). How a device stays reachable without them is open in the specification ([open question 17](https://github.com/mosgird/protocols/blob/main/spec/v0.1/open-questions.md#17-mobile-reachability-without-push-services)). The app adds no workaround until the specification decides.
 
 The transport, the group protocol, and moderation are still open in the specification. This app implements none of them until they are decided there.
 
