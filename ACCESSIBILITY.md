@@ -15,7 +15,7 @@ We aim to meet WCAG 2.2 Level AA for the app's user interface. This is a target,
 - The app respects the system's reduced-motion setting, and nothing flashes more than three times per second.
 - Errors are announced to assistive technology and explained in text.
 - Text and interface components meet the WCAG AA contrast ratios, in light and dark themes.
-- Images and icons shipped with the app have text alternatives. Assets are made by people, not AI tools (see [AI_POLICY.md](AI_POLICY.md) in mosgird/protocols).
+- Images and icons shipped with the app have text alternatives. Assets are made by people, not AI tools (see [AI_POLICY.md](https://github.com/mosgird/protocols/blob/main/AI_POLICY.md) in mosgird/protocols).
 
 ## Testing
 
